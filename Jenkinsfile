@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Run Image') {
             steps {
-                sh 'sudo docker run -d --name flaskcontainer myflaskimage:v1'
+                sh 'sudo docker run -d --name flaskcontainer -p 80:80 myflaskimage:v1
+'
             }
 
         }
