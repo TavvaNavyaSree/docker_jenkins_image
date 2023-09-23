@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, validators, TelField, DateField, TextAreaField, PasswordField, SubmitField, SearchField
 from wtforms.validators import length, equal_to, email, data_required, ValidationError
 
-
+#checking for trigger
 
 class RegisterForm(FlaskForm):
 
