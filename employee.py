@@ -8,7 +8,7 @@ from flask_login import login_user, UserMixin, current_user, logout_user, login_
 #for admin_login, details are already saved in database
 #email:admin1@gmail.com  password:admin1
 #email:admin2@gmail.com  password:admin2
-#email:admin3@gmail.com  password:admin3
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///employee.db'
